@@ -1,0 +1,197 @@
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #f8f9fa; /* Warna latar belakang sedikit abu-abu seperti di gambar */
+}
+
+/* --- Navbar --- */
+.navbar {
+  background-color: #ffffff;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #e9ecef;
+  position: fixed;
+  width: 100%;
+  z-index: 2;
+}
+
+.navbar-brand {
+  font-weight: 700;
+  color: #007bff; /* Mengganti dengan warna biru dari logo contoh */
+}
+
+.nav-link {
+  font-weight: 600;
+  color: #495057;
+}
+
+.nav-link:hover {
+  color: #28a745;
+}
+
+.btn-signup {
+  background-color: #28a745;
+  border-color: #28a745;
+  color: white;
+  font-weight: 600;
+  border-radius: 8px;
+}
+
+.btn-signup:hover {
+  background-color: #218838;
+  border-color: #1e7e34;
+  color: white;
+}
+
+/* --- Hero Section --- */
+.hero-section {
+  padding: 6rem 0;
+  background-color: #ffffff;
+}
+
+.hero-section .display-4 {
+  font-weight: 700;
+  color: #343a40;
+  margin-bottom: 1.5rem;
+}
+
+.hero-section .lead {
+  color: #6c757d;
+  margin-bottom: 2rem;
+  line-height: 1.6;
+}
+
+.btn-get-started {
+  background-color: #4caf50; /* Warna hijau utama */
+  border-color: #4caf50;
+  color: white;
+  font-size: 1.1rem;
+  font-weight: 600;
+  padding: 0.75rem 2rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 15px rgba(76, 175, 80, 0.4);
+}
+
+.btn-get-started:hover {
+  background-color: #45a049;
+  border-color: #45a049;
+  color: white;
+}
+/* --- Features Section --- */
+.features-section {
+  background-color: #f8f9fa; /* Warna latar sedikit abu-abu */
+}
+
+.feature-card {
+  border: 1px solid #e9ecef;
+  border-radius: 15px;
+  padding: 1.5rem 1rem;
+  position: relative;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.feature-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+}
+
+.feature-img {
+  height: 150px;
+  width: auto;
+}
+
+.feature-number {
+  position: absolute;
+  top: 1px; /* Posisi sedikit di atas kartu */
+  left: 20px;
+  background-color: #212529; /* Warna hitam */
+  color: #ffffff;
+  font-weight: bold;
+  height: 36px;
+  width: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  border: 3px solid #f8f9fa; /* Border untuk memberi jarak dari kartu */
+}
+
+/* --- News Section --- */
+.news-section {
+  background-color: #ffffff;
+}
+
+.card-footer {
+  padding-bottom: 1.25rem;
+}
+/* --- Footer Section --- */
+.site-footer {
+  color: #ffffff;
+}
+
+.footer-top {
+  background-color: #6fbf73; /* Warna hijau dari gambar */
+  padding: 4rem 0;
+}
+
+.footer-logo {
+  max-width: 150px;
+  filter: brightness(0) invert(1); /* Membuat logo jadi putih */
+}
+
+.contact-info li {
+  margin-bottom: 0.75rem;
+  display: flex;
+  align-items: center;
+}
+
+.footer-heading {
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+  font-size: 0.9rem;
+  letter-spacing: 1px;
+}
+
+.footer-links li {
+  margin-bottom: 0.8rem;
+}
+
+.footer-links a {
+  color: rgba(255, 255, 255, 0.85);
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.footer-links a:hover {
+  color: #ffffff;
+}
+
+.footer-bottom {
+  background-color: #121212; /* Warna hitam */
+  padding: 1.5rem 0;
+}
+
+.copyright-text {
+  color: #a0a0a0;
+  margin: 0;
+  font-size: 0.9rem;
+}
+
+.social-icons-bottom a {
+  color: #ffffff;
+  border: 1px solid #ffffff;
+  border-radius: 50%;
+  width: 36px;
+  height: 36px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  margin: 0 5px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.social-icons-bottom a:hover {
+  background-color: #ffffff;
+  color: #121212;
+}
