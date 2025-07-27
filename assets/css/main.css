@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+h1 {
+  font-family: "Bebas Neue", sans-serif;
+  color: #fff;
+}
+
+p {
+  font-size: 14px;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hero {
+  text-align: center;
+  padding: 100px 20px 0;
+  margin-bottom: 10px;
+  position: relative;
+  overflow: hidden;
+}
+
+.hero-title {
+  font-size: 100px;
+  font-weight: bold;
+  letter-spacing: 5px;
+  position: relative;
+  /* z-index: ; */
+}
+
+.hero-img {
+  max-width: 350px;
+  z-index: 2;
+  position: relative;
+}
+
+.circle-bg {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  background: #f5a623;
+  z-index: 1;
+}
+
+/* Add floating fruit slices */
+.fruit {
+  position: absolute;
+  z-index: 0;
+  width: 80px;
+  opacity: 0.8;
+}
+
+.fruit.kiwi {
+  top: 20%;
+  left: 10%;
+}
+
+.fruit.orange {
+  top: 40%;
+  right: 5%;
+}
+
+.fruit.lime {
+  top: 20%;
+  right: 15%;
+}
+
+.cta-section {
+  background: #fff;
+  color: #333;
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.cta-section h2 {
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+.cta-section p {
+  font-size: 18px;
+}
+
+.cta-section .btn {
+  margin-top: 20px;
+}
+
+.circle {
+  position: absolute;
+  top: 50%;
+  left: 10%;
+  transform: translate(-50%, -50%);
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background: #f5a623;
+  z-index: 1;
+}
+.img {
+  position: relative;
+  z-index: 2;
+}
+footer a:hover {
+  opacity: 0.8;
+}

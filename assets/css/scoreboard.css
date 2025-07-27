@@ -1,0 +1,34 @@
+.league {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.league img.badge {
+  width: 500px;
+  height: 500px;
+}
+.leaderboard {
+  width: 300px;
+  margin: 0 auto;
+}
+.leaderboard-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8px 12px;
+  border-bottom: 1px solid #ddd;
+}
+.leaderboard-item .rank {
+  font-weight: bold;
+  width: 30px;
+}
+.leaderboard-item .name {
+  flex: 1;
+}
+.leaderboard-item .xp {
+  font-weight: bold;
+}
+.rank-icon {
+  width: 20px;
+  height: 20px;
+  vertical-align: middle;
+}
