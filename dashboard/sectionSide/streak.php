@@ -8,7 +8,7 @@ $id_pengguna = $_SESSION['login']['id_pengguna'] ?? 0;
 <div class="titleStreak d-flex gap-3 align-items-center justify-content-around mb-5">
     <div class="streak d-flex align-items-center">
         <img src="../assets/images/dashboard/exp.png" alt="" width="40px" class="rounded-circle d-block">
-        <p class="mb-0  fw-bold fs-6">200</p>
+        <p class="mb-0  fw-bold fs-6">200M</p>
     </div>
     <div class="streak d-flex align-items-center">
         <img src="../assets/images/dashboard/redFire.png" alt="" width="40px" class="rounded-circle d-block">
