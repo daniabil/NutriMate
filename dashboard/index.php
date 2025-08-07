@@ -19,7 +19,7 @@ $page = isset($_GET['page']) ? $_GET['page'] : 'daily';
   <link rel="stylesheet" href="../assets/css/scoreboard.css">
   <!-- FullCalendar JS -->
   <script src='https://cdn.jsdelivr.net/npm/fullcalendar/index.global.min.js'></script>
-  <title>Dashboard ZetsuDoList</title>
+  <title>Dashboard ZetsuDoList testing</title>
 </head>
 <body>
 <!-- Loader -->
