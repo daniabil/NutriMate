@@ -16,7 +16,7 @@
     />
 
     <link rel="stylesheet" href="assets/css/main.css" />
-    <title>Healthy Drink Modern</title>
+    <title>Healthy Drink Modern testing</title>
   </head>
   <body>
     <div class="container-main m-3">
@@ -190,6 +190,3 @@
   </body>
 </html>
 
-
-
-<!-- ini tes github -->
