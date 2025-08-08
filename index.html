@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sidebar Toggle</title>
+    <style>
+      body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+      }
+
+      /* Sidebar */
+      .sidebar {
+        height: 100%;
+        width: 250px;
+        position: fixed;
+        top: 0;
+        left: -250px; /* Awalnya tersembunyi */
+        background-color: #333;
+        padding-top: 60px;
+        transition: 2s;
+      }
+
+      .sidebar a {
+        padding: 10px 20px;
+        text-decoration: none;
+        font-size: 18px;
+        color: white;
+        display: block;
+        transition: 0.2s;
+      }
+
+      .sidebar a:hover {
+        background-color: #575757;
+      }
+
+      /* Tombol Toggle */
+      .open-btn {
+        font-size: 18px;
+        cursor: pointer;
+        background-color: #333;
+        color: white;
+        padding: 10px 15px;
+        border: none;
+        position: fixed;
+        top: 10px;
+        left: 10px;
+      }
+
+      /* Konten */
+      .content {
+        padding: 20px;
+        margin-left: 0;
+        transition: 0.3s;
+      }
+
+      /* Saat Sidebar dibuka */
+      .sidebar.active {
+        left: 0;
+      }
+
+      .content.active {
+        margin-left: 250px;
+      }
+    </style>
+  </head>
+  <body>
+    <button class="open-btn" onclick="toggleSidebar()">☰ Menu</button>
+
+    <div class="sidebar" id="mySidebar">
+      <a href="#">Home</a>
+      <a href="#">About</a>
+      <a href="#">Services</a>
+      <a href="#">Contact</a>
+    </div>
+
+    <div class="content" id="mainContent">
+      <h1>Konten Utama</h1>
+      <p>
+        Ini adalah halaman utama dengan sidebar yang bisa dibuka dan ditutup.
+      </p>
+    </div>
+
+    <script>
+      function toggleSidebar() {
+        document.getElementById("mySidebar").classList.toggle("active");
+        document.getElementById("mainContent").classList.toggle("active");
+      }
+    </script>
+  </body>
+</html>

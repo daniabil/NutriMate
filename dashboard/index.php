@@ -31,7 +31,7 @@ $page = isset($_GET['page']) ? $_GET['page'] : 'daily';
 
 <div class="d-flex h-100 w-100">
   <!-- SIDEBAR -->
-  <div class="sidebar-menu position-fixed bg-dark h-100 ">
+  <div class="sidebar-menu position-fixed h-100 " style="background-color: #3498DB;">
     <div class="title d-flex justify-content-center align-items-center m-3 pe-3 border-bottom pb-3">
       <img src="../assets/images/avatar/Blue_and_White_3D_Avatar_Profession_Group_Project_Presentation__21_x_35_cm_-removebg-preview.png" alt="" width="60px">
       <h4 class="text-white text-center"><span style="color: yellow;">N</span>utri<span style="color: rgb(235, 41, 102);">M</span>ate</h4>
