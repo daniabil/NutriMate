@@ -41,10 +41,6 @@ $page = isset($_GET['page']) ? $_GET['page'] : 'daily';
         <img src="../assets/images/dashboard/daily.png" alt="" width="40px">
         <a href="?page=daily" class="w-100">daily</a>
       </li>
-      <!-- <li class="<?= $page === 'statistik' ? 'active' : '' ?>">
-        <img src="../assets/images/dashboard/jadwal.png" alt="" width="40px">  
-        <a href="?page=statistik" class="w-100">statistik</a>
-      </li> -->
       <li class="<?= $page === 'chat' ? 'active' : '' ?> pt-2 pb-2">
         <img src="../assets/images/dashboard/chatBot.png" alt="" width="40px">
         <a href="?page=chat" class="w-100">chat bot</a>
