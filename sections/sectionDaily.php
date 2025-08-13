@@ -39,16 +39,16 @@
     <a href="../pages/maps.php" id="start-btn" class="btn btn-success p-3 mb-3 " style="width: 18rem;">Mulai untuk olahraga</a>
 
     <div class="character" style="width: 18rem;">
-      <div class="card mb-3">
+      <div class="card mb-3 pt-2 pb-2">
+        <p class="fw-bold mb-1 text-center">Ach. Dani Abil Abidi Zein</p>
         <!-- Wadah ratio portrait -->
         <div class="ratio" style="--bs-aspect-ratio: 133.33%;">
-          <img src="../assets/images/dashboard/womenNormal.gif" 
+          <img src="../assets/images/videos/womenNormal.gif" 
               alt="Animasi GIF" 
               class="w-100 h-100 object-fit-cover">
         </div>
 
         <div class="description align-items-center text-center mt-2">
-          <p class="fw-bold mb-1">Ach. Dani Abil Abidi Zein</p>
           <p class="mb-1">Tinggi Badan: 170 cm</p>
           <p class="mb-1">Berat Badan: 90 kg</p>
         </div>

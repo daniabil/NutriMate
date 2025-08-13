@@ -11,7 +11,7 @@ $page = isset($_GET['page']) ? $_GET['page'] : 'daily';
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="icon" href="../assets/avatar/avatar.png" type="image/x-icon">
+  <link rel="icon" href="../assets/images/avatar/Blue_and_White_3D_Avatar_Profession_Group_Project_Presentation__21_x_35_cm_-removebg-preview.png" type="image/x-icon" width="60px">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
   <link href='https://cdn.jsdelivr.net/npm/fullcalendar@6.1.8/main.min.css' rel='stylesheet' />
@@ -19,7 +19,7 @@ $page = isset($_GET['page']) ? $_GET['page'] : 'daily';
   <link rel="stylesheet" href="../assets/css/scoreboard.css">
   <!-- FullCalendar JS -->
   <script src='https://cdn.jsdelivr.net/npm/fullcalendar/index.global.min.js'></script>
-  <title>Dashboard ZetsuDoList testing</title>
+  <title>Dashboard - Nutrimate</title>
 </head>
 <body>
   
@@ -35,7 +35,7 @@ $page = isset($_GET['page']) ? $_GET['page'] : 'daily';
   <div class="sidebar-menu position-fixed h-100 " style="background-color: #3498DB;">
     <div class="title d-flex justify-content-center align-items-center m-3 pe-3 border-bottom pb-3">
       <img src="../assets/images/avatar/Blue_and_White_3D_Avatar_Profession_Group_Project_Presentation__21_x_35_cm_-removebg-preview.png" alt="" width="60px">
-      <h4 class="text-white text-center"><span style="color: yellow;">N</span>utri<span style="color: rgb(235, 41, 102);">M</span>ate</h4>
+      <h4 class="text-white text-center fw-bold"><span style="color: yellow;">N</span>utri<span style="color: rgb(235, 41, 102);">m</span>ate</h4>
     </div>
     <ul class="list-unstyled m-2 ">
       <li class="<?= $page === 'daily' ? 'active' : '' ?> pt-2 pb-2">
@@ -46,9 +46,9 @@ $page = isset($_GET['page']) ? $_GET['page'] : 'daily';
         <img src="../assets/images/dashboard/chatBot.png" alt="" width="40px">
         <a href="?page=chat" class="w-100">chat bot</a>
       </li>
-      <li class="<?= $page === 'jurnal' ? 'active' : '' ?> pt-2 pb-2">
-        <img src="../assets/images/dashboard/jurnal.png" alt="" width="40px">
-        <a href="?page=jurnal" class="w-100">jurnal</a>
+      <li class="<?= $page === 'nutrition' ? 'active' : '' ?> pt-2 pb-2">
+        <img src="../assets/images/dashboard/nutrition.png" alt="" width="40px">
+        <a href="?page=nutrition" class="w-100">nutrition</a>
       </li>
       <li class="<?= $page === 'rank' ? 'active' : '' ?> pt-2 pb-2">
         <img src="../assets/images/dashboard/rank.png" alt="" width="40px">
@@ -88,8 +88,8 @@ $page = isset($_GET['page']) ? $_GET['page'] : 'daily';
           include '../pages/chat.php';
           break;
 
-        case 'jurnal':
-          include '../pages/jurnal.php';
+        case 'nutrition':
+          include '../pages/nutrition.php';
           break;
 
         case 'rank':

@@ -23,48 +23,53 @@ $id_pengguna = $_SESSION['login']['id_pengguna'] ?? null;
   function startWorkout() {
     changeContent(`
     <div>
-    <button id="back-btn" class="btn btn-secondary">Kembali</button>
-    <h1 class="h4 mb-4 text-center">Mari Mulai Olahraga</h1>
+      <button id="back-btn" class="btn btn-secondary">Kembali</button>
+      <h1 class="h4 mb-4 text-center">Mari Mulai Olahraga</h1>
 
       <!-- Grid 3 kolom di md ke atas -->
       <div class="row row-cols-1 row-cols-md-3 g-4">
         <div class="col">
           <div class="card h-100">
-            <img src="https://picsum.photos/600/400?random=1" class="card-img-top" alt="Gambar 1">
+            <div class="card-img-container">
+              <img src="../assets/images/dashboard/lari.webp" alt="Gambar 1">
+            </div>
             <div class="card-body">
-              <h5 class="card-title">Lari</h5>
+              <h5 class="card-title text-center fw-bold ">Lari</h5>
               <p class="card-text">Deskripsi singkat konten card pertama.</p>
             </div>
             <div class="card-footer bg-transparent border-0">
-              <a href="#" class="btn btn-primary w-100">Aksi</a>
+              <a href="../pages/maps.php" class="btn btn-primary w-100">Mulai</a>
             </div>
           </div>
         </div>
 
         <div class="col">
           <div class="card h-100">
-            <img src="https://picsum.photos/600/400?random=2" class="card-img-top" alt="Gambar 2">
+            <div class="card-img-container">
+              <img src="../assets/images/dashboard/jalan.webp" alt="Gambar 2">
+            </div>
             <div class="card-body">
-              <h5 class="card-title">Jalan</h5>
+              <h5 class="card-title text-center fw-bold ">Jalan</h5>
               <p class="card-text">Deskripsi singkat konten card kedua.</p>
             </div>
             <div class="card-footer bg-transparent border-0">
-              <a href="#" class="btn btn-outline-primary w-100">Detail</a>
+              <a href="../pages/maps.php" class="btn btn-primary w-100">Mulai</a>
             </div>
           </div>
         </div>
 
         <div class="col">
           <div class="card h-100">
-            <img src="https://picsum.photos/600/400?random=3" class="card-img-top" alt="Gambar 3">
+            <div class="card-img-container">
+              <img src="../assets/images/dashboard/bersepeda.webp" alt="Gambar 3">
+            </div>
             <div class="card-body">
-              <h5 class="card-title">Bersepeda</h5>
+              <h5 class="card-title text-center fw-bold ">Bersepeda</h5>
               <p class="card-text">Deskripsi singkat konten card ketiga.</p>
             </div>
             <div class="card-footer bg-transparent border-0">
               <div class="d-grid gap-2">
-                <a href="#" class="btn btn-primary">Beli</a>
-                <a href="#" class="btn btn-light border">Simpan</a>
+                <a href="../pages/maps.php" class="btn btn-primary">Mulai</a>
               </div>
             </div>
           </div>

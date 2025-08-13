@@ -111,6 +111,17 @@ ul li.active a {
   opacity: 1;
 }
 
+/* PAGES AKTIVITY  */
+.card-img-container {
+  height: 360px; /* atur tinggi gambar sesuai kebutuhan */
+  overflow: hidden;
+}
+.card-img-container img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
 /*TODO : CSS LOADING  */
 #loader-wrapper {
   position: fixed;
