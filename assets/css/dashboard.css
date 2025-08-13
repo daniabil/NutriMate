@@ -102,18 +102,13 @@ ul li.active a {
   transform: translateY(0);
 }
 
-/*TODO: CSS TUGAS */
-.input-group {
-  border-radius: 10px;
-  -webkit-border-radius: 10px;
-  -moz-border-radius: 10px;
-  -ms-border-radius: 10px;
-  -o-border-radius: 10px;
-  padding: 5px 10px;
+/*TODO: CSS DAILY */
+.fade-content {
+  opacity: 0;
+  transition: opacity 0.4s ease-in-out;
 }
-
-input::placeholder {
-  color: white !important;
+.fade-content.show {
+  opacity: 1;
 }
 
 /*TODO : CSS LOADING  */
