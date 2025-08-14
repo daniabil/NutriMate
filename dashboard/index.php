@@ -162,7 +162,7 @@ $page = isset($_GET['page']) ? $_GET['page'] : 'daily';
 </div>
 
 <!-- MODAL CATATAN -->
-<?php include 'sections/modal_catatan.php'; ?>
+<!-- <?php include 'sections/modal_catatan.php'; ?> -->
 
 <!-- SweetAlert2 -->
 <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
