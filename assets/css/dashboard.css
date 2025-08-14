@@ -102,18 +102,24 @@ ul li.active a {
   transform: translateY(0);
 }
 
-/*TODO: CSS TUGAS */
-.input-group {
-  border-radius: 10px;
-  -webkit-border-radius: 10px;
-  -moz-border-radius: 10px;
-  -ms-border-radius: 10px;
-  -o-border-radius: 10px;
-  padding: 5px 10px;
+/*TODO: CSS DAILY */
+.fade-content {
+  opacity: 0;
+  transition: opacity 0.4s ease-in-out;
+}
+.fade-content.show {
+  opacity: 1;
 }
 
-input::placeholder {
-  color: white !important;
+/* PAGES AKTIVITY  */
+.card-img-container {
+  height: 360px; /* atur tinggi gambar sesuai kebutuhan */
+  overflow: hidden;
+}
+.card-img-container img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
 }
 
 /*TODO : CSS LOADING  */
