@@ -46,6 +46,10 @@ $result = $conn->query($sql);
       <?php if ($result->num_rows > 0): ?>
         <?php $rank = 1; ?>
         <?php while($row = $result->fetch_assoc()): ?>
+          <?php 
+          // cek apakah ini baris user yg sedang login
+          $highlight = ($row['id'] == $current_user_id) ? "highlight" : "";
+          ?>
           <div class="list-group-item d-flex justify-content-between align-items-center">
             <div class="d-flex align-items-center">
               <?php if ($rank == 1): ?>
